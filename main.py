@@ -73,10 +73,12 @@ if __name__ == '__main__':
                                                                   (w, h),
                                                                   None, None)
 
+
     # Intrinsic Parameters
     print("\nIntrinsic Parameters:")
     print(f"Focal Length: fx = {matrix[0, 0]}, fy = {matrix[1, 1]}")
     print(f"Principal Point: cx = {matrix[0, 2]}, cy = {matrix[1, 2]}")
+    print("Skew parameter: ", matrix[0, 1])
 
     # Extrinsic Parameters (for each calibration image)
     print("\nExtrinsic Parameters:")
