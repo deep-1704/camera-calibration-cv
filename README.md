@@ -39,6 +39,7 @@ pip install numpy opencv-python
    - The script will output the **intrinsic** and **extrinsic** camera parameters, including:
      - **Focal Length** (`fx` and `fy`)
      - **Principal Point** (`cx` and `cy`)
+     - **Skew Parameter** (`S`)
      - **Rotation Matrices** and **Translation Vectors** for each input calibration image.
 
 3. **To view detected corners(Optional):**
